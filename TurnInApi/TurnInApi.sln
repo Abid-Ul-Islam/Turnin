@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnInApi", "TurnInApi\TurnInApi.csproj", "{4857350C-2ABD-404B-99CF-70C47C547BB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{39972005-DAED-4C13-8CEB-8B5A93849947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3E39FEBB-F04E-42FC-9C91-3CA7847F0DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B1FB33EA-E60D-4399-8DEF-96558B106A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{4857350C-2ABD-404B-99CF-70C47C547BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4857350C-2ABD-404B-99CF-70C47C547BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4857350C-2ABD-404B-99CF-70C47C547BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39972005-DAED-4C13-8CEB-8B5A93849947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39972005-DAED-4C13-8CEB-8B5A93849947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39972005-DAED-4C13-8CEB-8B5A93849947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39972005-DAED-4C13-8CEB-8B5A93849947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E39FEBB-F04E-42FC-9C91-3CA7847F0DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E39FEBB-F04E-42FC-9C91-3CA7847F0DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E39FEBB-F04E-42FC-9C91-3CA7847F0DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E39FEBB-F04E-42FC-9C91-3CA7847F0DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FB33EA-E60D-4399-8DEF-96558B106A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FB33EA-E60D-4399-8DEF-96558B106A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FB33EA-E60D-4399-8DEF-96558B106A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FB33EA-E60D-4399-8DEF-96558B106A41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
