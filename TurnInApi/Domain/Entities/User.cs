@@ -10,6 +10,7 @@ public class User
     public string PasswordHash { get; set; }
     
     public Role Role { get; set; }
-    public ICollection<CourseOffering> Teaching { get; set; }
-    public ICollection<CourseOffering> EnrolledCourses { get; set; }
+    public ICollection<CourseOffering> Teaching { get; set; } = [];
+    public ICollection<CourseOffering> EnrolledCourses { get; set; } = [];
+    public ICollection<Submission> AssignmentSubmissions { get; set; } = [];
 }

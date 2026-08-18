@@ -5,7 +5,7 @@ namespace Domain.Entities;
 public class Submission
 {
     public string Id { get; set; }
-    public DateTime SubmissonTime { get; set; }
+    public DateTime SubmissionTime { get; set; }
     public string Feedback {get; set;}
     public decimal AcquiredMarks {get; set;}
     public SubmissionStatus Status {get; set;}
